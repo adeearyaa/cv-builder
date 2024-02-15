@@ -1,0 +1,8 @@
+.main-content-container {
+    width:100%;
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    gap:100px;
+}

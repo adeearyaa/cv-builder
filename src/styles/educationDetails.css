@@ -1,0 +1,75 @@
+.education-container {
+    padding:10px;
+    width:100%;
+    border: 2px solid black;
+    border-radius:20px;
+    margin-bottom:50px;
+}
+
+.edit-button-container,.delete-button-container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-shrink:2;
+}
+
+.education-details-header {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+    margin:5px;
+}
+
+.education-details-content {
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    gap:5px;
+    max-width:80%
+}
+
+.education-details-content p {
+  margin: 0; /* Add some vertical spacing between items *//* Ensure text within each <p> is centered if needed */
+}
+
+.education-details-container {
+  display:flex;
+  justify-content:space-between;
+  border-bottom: 1px solid black;
+  margin-bottom:5px;
+  padding:5px;
+  gap:10px;
+}
+
+/*all the main container setting is done */
+
+.form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="date"],
+  input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button:disabled {
+    background-color: #ccc;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height:30px;
+    text-align:center;
+  }
